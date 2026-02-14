@@ -1,0 +1,56 @@
+/* ============================= */
+/* RESPONSIVIDADE */
+/* ============================= */
+
+/* Tablets */
+@media (max-width: 768px) {
+
+    .container {
+        width: 90%;
+        padding: 25px;
+    }
+
+    .container h1 {
+        font-size: 28px;
+    }
+
+}
+
+/* Celulares */
+@media (max-width: 480px) {
+
+    body {
+        padding: 15px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .container h1 {
+        font-size: 24px;
+    }
+
+    .input-box {
+        margin: 20px 0;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+        font-size: 14px;
+    }
+
+    .login {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .register-link {
+        font-size: 13px;
+    }
+
+}
